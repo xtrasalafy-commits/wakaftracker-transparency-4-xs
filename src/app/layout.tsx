@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { TrakteerWidget } from "@/components/trakteer-widget";
+import { DownloadSourceButton } from "@/components/download-source";
 
 export const metadata: Metadata = {
   title: "WakafTracker — Dashboard Transparansi & Laporan Proyek Wakaf",
@@ -17,6 +19,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <SiteHeader />
         <div className="flex-1">{children}</div>
         <SiteFooter />
+        <TrakteerWidget />
+        <DownloadSourceButton />
       </body>
     </html>
   );

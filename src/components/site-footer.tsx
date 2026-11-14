@@ -7,6 +7,7 @@ export function SiteFooter() {
           <p className="text-xs text-slate-400">
             Dibangun dengan Next.js, Drizzle ORM &amp; PostgreSQL (kompatibel Neon Serverless).
           </p>
+          <p className="text-xs font-semibold text-slate-400">Open Source oleh MZF - 2026</p>
         </div>
       </div>
     </footer>
